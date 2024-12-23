@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tool Links</title>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/700786927867265145/1320751845647454268/1da503b95c062163.png?ex=676abd82&is=67696c02&hm=43618158db96271b9937d9a66b0b6896c4ae34cd560e398b368e93c4977ef2d9&">
   <style>
     body {
       background-color: #121212;
@@ -15,6 +16,7 @@
       justify-content: center;
       height: 100vh;
       margin: 0;
+      position: relative;
     }
 
     h1 {
@@ -61,14 +63,26 @@
     footer a:hover {
       text-decoration: underline;
     }
+
+    /* Icon positioning */
+    .icon {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 40px;
+      height: 40px;
+    }
   </style>
 </head>
 <body>
+  <!-- Icon in top-left corner -->
+  <img class="icon" src="https://cdn.discordapp.com/attachments/700786927867265145/1320751845647454268/1da503b95c062163.png?ex=676abd82&is=67696c02&hm=43618158db96271b9937d9a66b0b6896c4ae34cd560e398b368e93c4977ef2d9&" alt="Icon">
+
   <h1>Useful Tools</h1>
   <div class="container">
-    <button class="button" onclick="window.location.href='https://gigandbro.github.io/gio-info/'">Gio Info</button>
-    <button class="button" onclick="window.location.href='https://gigandbro.github.io/jpg2png/'">JPG to PNG</button>
-    <button class="button" onclick="window.location.href='https://gigandbro.github.io/resizer/'">Resizer</button>
+    <button class="button" onclick="window.location.href='https://github.com/gigandbro/gio-info'">Gio Info</button>
+    <button class="button" onclick="window.location.href='https://github.com/gigandbro/jpg2png'">JPG to PNG</button>
+    <button class="button" onclick="window.location.href='https://github.com/gigandbro/resizer'">Resizer</button>
     <button class="button" onclick="window.location.href='https://gigandbro.github.io/gif2video/'">GIF to Video</button>
     <button class="button" onclick="window.location.href='https://gigandbro.github.io/pdf2docx/'">PDF to DOCX</button>
   </div>
